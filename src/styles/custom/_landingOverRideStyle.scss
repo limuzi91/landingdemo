@@ -1,0 +1,32 @@
+//// antD carousel in #team-members
+
+#team-members .slick-dots {
+  bottom: -10px !important;
+  left: -30px !important;
+}
+
+#team-members .slick-dots li {
+  border: 1px solid #212226;
+}
+
+#team-members .slick-dots li.slick-active {
+  background: #212226 !important;
+}
+#team-members li.slick-active button {
+  background: #212226 !important;
+}
+
+//// andD tab in #services-02
+#services-02 .ant-tabs-bar {
+  border-bottom: none !important;
+}
+
+#services-02 .ant-tabs-nav-scroll {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+#services-02 .ant-tabs-nav {
+  margin-top: -20px;
+  margin-bottom: 15px !important;
+}
